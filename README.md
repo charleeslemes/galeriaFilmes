@@ -1,3 +1,27 @@
+
+
+
+
+
+
+
+![projeto-galeriaFilmes](https://user-images.githubusercontent.com/95238029/158667178-f1e4a7f3-4dbc-4682-b984-fb7a5c13faaf.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
