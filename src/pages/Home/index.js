@@ -30,7 +30,7 @@ export default function Home(){
           return(
             <article key={filmes.div}>
               <strong>{filmes.nome}</strong>
-              <img src={filmes.foto} alt={filmes.nome}/>
+              <img className='article-img' src={filmes.foto} alt={filmes.nome}/>
               <Link to={`/filme/${filmes.id}`}>Acessar</Link>
             </article >
           )

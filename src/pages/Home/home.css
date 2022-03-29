@@ -48,3 +48,18 @@
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
+
+
+@media screen and ( max-width: 768px){
+    .lista-filmes img{
+        width: 500px;
+        padding: 0 2%;
+    }
+
+
+    .lista-filmes article a {
+        width: 96%;
+     
+    }
+
+}

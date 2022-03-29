@@ -8,6 +8,8 @@
 }
 
 ul{
+    display: flex;
+    margin-top: 20px;
     padding: 0;
 }
 
@@ -41,3 +43,26 @@ button{
 ul li div a {
 color: brown;
 }
+
+
+@media screen and ( max-width: 768px){
+  ul{
+      flex-direction: column;
+      
+  }
+
+  ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
+ 
+}
+
+

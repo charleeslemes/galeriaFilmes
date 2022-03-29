@@ -37,23 +37,24 @@ import { toast } from "react-toastify";
             {
                 filmes.length === 0 && <span>Você não possui nenhum filme salvo :( </span>
             }
-
-            <ul>
+         
+             <ul>
                 {filmes.map((item)=>{
                     return(
                         <li key={item.id}>
                             <span>{item.nome}</span>
-                            <div>
+                            <div className="item">
                                 <Link to={`/filme/${item.id}`}>Ver detalhes</Link>
                                 <button onClick={ ()=> handleDelete(item.id)}>Excluir</button>
                             </div>
-                            
+                
                         </li>
-
+                     
                        
                     )
                 })}
             </ul>
+          
         </div>
 
     )

@@ -13,7 +13,7 @@
 }
 
 
-.filme-info button{
+.filme-info button {
     margin-right: 10px;
     margin-top: 15px;
     cursor: pointer;
@@ -23,7 +23,7 @@
     outline: none;
     padding: 10px 20px;
     transition:  all .5s ;
-    background-color: #ccc;
+    background-color: gray;
 }
 
 
@@ -36,10 +36,10 @@
     cursor: pointer;
     font-size: 20px;
     border-radius: 7px;
-    background-color: #ccc;
+    background-color: gray;
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     transition: all .5s;
 
 
@@ -66,4 +66,30 @@
 .botoes{
     
     margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px){
+    .filme-info{
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        width: 100%;
+    }
+    .filme-info p {
+        text-align: justify;
+        max-width: 475px;
+        width: 100%;
+    }
+
+    .filme-info button {
+        
+        background-color: brown;
+    }
+
+    .filme-info a{
+        background-color: brown;
+    }
+    
+
 }
